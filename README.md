@@ -19,7 +19,7 @@ namespace Keys.Pages
         }
    }    
              //Enter FirstName
-        [FindsBy(How = How.XPath, Using = "//*[@id='FirstName']")]
+       [FindsBy(How = How.XPath, Using = "//*[@id='FirstName']")]
         private IWebElement FirstName { get; set; }
        
     //Enter LastName
