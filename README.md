@@ -28,19 +28,19 @@ namespace Keys.Pages
     
    //Enter Price
         [FindsBy(How = How.XPath, Using = "//*[@id='Price']")]
-        private IWebElement LastName { get; set; }
+        private IWebElement Price { get; set; }
     
     //Enter Deposit
         [FindsBy(How = How.XPath, Using = "//*[@id='Deposit']")]
-        private IWebElement LastName { get; set; }
+        private IWebElement Deposit { get; set; }
     
     //Enter Check-In Date
         [FindsBy(How = How.XPath, Using = "//*[@id='Check-In']")]
-        private IWebElement LastName { get; set; }
+        private IWebElement Check-In { get; set; }
         
     //Enter Check-Out Date
         [FindsBy(How = How.XPath, Using = "//*[@id='Check-Out']")]
-        private IWebElement LastName { get; set; }
+        private IWebElement Check-Out { get; set; }
     
     
         
